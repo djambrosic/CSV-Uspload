@@ -1,0 +1,5 @@
+Kako bi ucitali .csv datoteku potrebno je istu staviti u root folder aplikacije. U skripti import.php je na liniju broj 8 potrebno unjeti naziv datoteke
+te u liniju 6 je potrebno unjeti podatke za spajanje na MySql bazu ( username, password, naziv baze ). Takoder je u skriptu select.php potrebno unjeti
+podatke za spajanje na bazu podataka. 
+
+Nakon sto su se unjeli navedeni podaci, pokrene se index.php i s gumbom "Ucitaj CSV" ce se unjeti podaci u bazu, a nakon toga je moguce pretrazivati gradove.
